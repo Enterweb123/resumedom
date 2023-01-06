@@ -1,0 +1,79 @@
+.bodySecction{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+}
+@media only screen and (max-width:768px){
+    .bodySecction{
+        display: grid;
+        grid-template-columns:1fr;
+        margin: 0px 20px 0px 20px;
+        padding: 5px;
+    }
+
+    .RowTwo{
+        margin-left: 0px;
+    }
+
+}
+
+
+.boxTitle{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+ .square {
+    position: absolute;
+    width:5000px;
+    height: 20px;
+    background: rgb(172, 172, 172);
+    bottom: 32px;
+  }
+
+.IconDiv {
+   background-color: rgb(0, 0, 0);
+   width: 30px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   border-radius: 50%;
+   padding: 10px;
+   color: orange;
+   outline-style: dotted ;
+}
+
+.RowOne{
+    border-right: solid rgb(131, 131, 131) 1px;
+    padding: 10px;
+}
+.RowTwo{
+    padding: 10px;
+    margin-left: 20px;
+}
+@media only screen and (max-width:768px){
+    .RowOne{
+        border: none;
+    }
+    .RowTwo{
+        padding: 10px;
+        margin-left: 0px;
+    }
+}
+
+.bodyBox{
+    margin: 2px 0px 40px 0px;
+    display: grid;
+    gap: 10px;
+}
+
+/* experienceBox */
+.experienceBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #565656;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+/* header h2,  */
+.headerh1{
+border-radius: 5px;
+background-color: rgb(255, 187, 0) ;
+padding: 10px 30px;
+display: inline-block;
+width: max-content;
+bottom:20px;
+position: absolute;
+right: -140px;
+z-index: 100;
+
+border-bottom: #565656 ;
+
+}
+
+header canvas{
+background-color: rgb(255, 187, 0) ;
+bottom:20px;
+position: absolute;
+/* right: -115px; */
+/* z-index: 100; */
+}
+
+/*  header img  */
+.headimg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: center;
+    border: dotted rgb(255, 187, 0) 10px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.textBox{
+    background-color: aliceblue;
+    width: 100%;
+    height: 20%;
+}
+
+.paratwo{
+    text-align: center;
+    /* padding:10px; */
+    border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.progress-bar{
+background-color: rgb(196, 196, 196);
+width: 150px;
+height: 10px;
+border-radius: 5px;
+text-align: center;
+color: aliceblue;
+}
+
+.progress-bar div{
+ height: 10px;
+ border-radius: 5px;
+ background-color: #ffbb00;
+ width: 0%;
+    }
+
+.javaScript{
+    animation: javaScript 1s linear forwards;
+}
+.css{
+    animation: css 1s linear forwards;
+}
+.html{
+    animation: html 1s linear forwards;
+}
+.redux{
+    animation: redux 1s linear forwards;
+}
+.react{
+    animation: react 1s linear forwards;
+}
+.mongo{
+    animation: mongo 1s linear forwards;
+}
+.deployment{
+    animation: deployment 1s linear forwards;
+}
+
+.management{
+    animation: management 1s linear forwards;
+}
+
+.business{
+    animation: business 1s linear forwards;
+}
+
+.recuitment{
+    animation: recuitment 1s linear forwards;
+}
+
+.editing{
+    animation: editing 1s linear forwards;
+}
+
+.found{
+    animation: found 1s linear forwards;
+}
+
+
+@keyframes css{
+    100%{
+        width: 80%;
+    }
+}
+@keyframes javaScript{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes html{
+    100%{
+        width: 90%;
+    }
+}
+@keyframes react{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes redux{
+    100%{
+        width: 70%;
+    }
+}
+@keyframes mongo{
+    100%{
+        width: 30%;
+    }
+}
+@keyframes deployment{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes management{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes business{
+    100%{
+        width: 50%;
+    }
+}
+@keyframes recuitment{
+    100%{
+        width: 40%;
+    }
+}
+@keyframes editing{
+    100%{
+        width: 40%;
+    }
+}
+@keyframes found{
+    100%{
+        width: 70%;
+    }
+}
+
+.progress-bar div .round{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    /* padding: 10px; */
+
+    height: 20px;
+    width: 20px;
+    /* font-size: 10px; */
+    text-align: center;
+    background-color:rgb(248, 247, 250);
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 50%;
+    float: right;
+    margin-top: -6px;
+    margin-right: -15px;
+    }
+
+
